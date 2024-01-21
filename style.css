@@ -1,0 +1,108 @@
+h1 {
+    color: orange;
+}
+div {
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    Left: 50%;
+    border-radius: 1.3cm;
+    transform-origin: 1.3cm 2cm;
+    animation: rotate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.a1{
+    animation-delay: 0.1s;
+    background-color: purple;
+}
+.a2{
+    animation-delay: 0.2s;
+    background-color: red;
+}
+.a3{
+    animation-delay: 0.3s;
+    background-color: purple;
+}
+.a4{
+    animation-delay: 0.4s;
+    background-color: green;
+}
+.a5{
+    animation-delay: 0.5s;
+    background-color: indigo;
+}
+
+
+
+
+
+
+/* * {
+    font-size: 30px;
+}
+q::before {
+    content: "<<";
+    color:blue;
+}
+q::after {
+    content: ">>";
+    color: red;
+} */
+
+
+
+
+/* body {
+    text-align: center;
+}
+h1::first-letter{
+    font-family: Lucida calligraphy; 
+    font-size: 3cm;
+    color: red;
+    text-shadow: 5px 8px 9px cyan
+} */
+
+
+
+
+
+/* 
+.box {
+    background-color: pink;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+.box:active {
+    background-color: cyan;
+}
+h1 {
+    text-align: center;
+} */
+
+/* .box {
+    background-color: pink;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    font-size: 40px;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: cyan;
+} */
